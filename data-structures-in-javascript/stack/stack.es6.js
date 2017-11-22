@@ -33,9 +33,13 @@ console.log('length is 3:', stack.length()); // => 3
 console.log('peek is 3:', stack.peek()); // => 3
 console.log('pop is 3:', stack.pop()); // => 3
 stack.print(); // => 1 2
-console.log('pop is 2:', stack.pop());  // => 2
+console.log('pop is 2:', stack.pop()); // => 2
 console.log('length is 1:', stack.length()); // => 1
 console.log('pop is 1:', stack.pop()); // => 1
 stack.print(); // => ''
 console.log('peek is undefined:', stack.peek()); // => undefined
 console.log('pop is undefined:', stack.pop()); // => undefined
+
+/*we have created a skeleton of a stack class which contains a constructor in
+which we declare an array to implement stack. Hence, with the creation of an
+object of a stack class this constructor would be called automatically. */
